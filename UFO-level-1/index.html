@@ -1,61 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Bootstrap Table</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"
-  />
-  <link rel="stylesheet" href="styles.css">
+<head></head>
+  <meta charset="utf-8">
+  <title>UFO Finder</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <link rel="stylesheet" href="static/css/style.css">
+  <script src="https://d3js.org/d3.v5.min.js"></script>
 </head>
 
 <body>
+  
   <div class="container">
+    <div class="row">
+      <h1>Some UFO sightings:</h1>
+    </div>
     <div class="row">
       <div class="col-md-12">
         <table class="table table-striped">
           <thead>
             <tr>
-              <th>ID</th>
-              <th>Country</th>
-              <th>State</th>
+              <th>Date/Time</th>
               <th>City</th>
-              <th>Street Name</th>
-              <th>Street Number</th>
+              <th>State</th>
+              <th>County</th>
+              <th>Shape</th>
+              <th>Duration (min)</th>
+              <th>Description</th>
             </tr>
           </thead>
-          <tbody>
-            <tr>
-              <th scope="row">1</th>
-              <td>United States</td>
-              <td>California</td>
-              <td>Sacramento</td>
-              <td>Carberry</td>
-              <td>87</td>
-            </tr>
-            <tr>
-              <th scope="row">2</td>
-                <td>United States</td>
-                <td>Florida</td>
-                <td>Boynton Beach</td>
-                <td>Michigan</td>
-                <td>9</td>
-            </tr>
-            <tr>
-              <th scope="row">3</td>
-                <td>United States</td>
-                <td>New York</td>
-                <td>Schenectady</td>
-                <td>Daystar</td>
-                <td>8988</td>
-            </tr>
-          </tbody>
+          <tbody></tbody>
         </table>
       </div>
     </div>
   </div>
 </body>
+<script src="static/js/data.js"></script>
+<script src="static/js/app.js"></script>
 
 </html>
+
+<!-- <body>
+  <table>
+    <thead>
+      <tr>
+        <th>Weekday</th>
+        <th>Date</th>
+        <th>High</th>
+        <th>Low</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+</body> -->
