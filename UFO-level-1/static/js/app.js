@@ -17,7 +17,6 @@ filterDate.on("input", function() {
       cell.text(value);
     });
   });
-
 });
 
 data.forEach(function(sight) {
