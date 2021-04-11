@@ -14,6 +14,8 @@ data.forEach(function(sight) {
 
 filterDate.on("input", function() {
 
+  console.log("ok?")
+  
   tbody.selectAll("tr").remove();
 
   selDate = d3.event.target.value;
