@@ -36,4 +36,3 @@ filterDate.on("input", function() {
     });
   });
 });
-
